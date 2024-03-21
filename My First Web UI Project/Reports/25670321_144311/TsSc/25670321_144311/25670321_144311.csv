@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TsSc,Chrome 123.0.0.0,,,21-03-2024 14:43:16,21-03-2024 14:43:19,3.252s,PASSED
+,,,,,,,
+Test Cases/login sc,Chrome 123.0.0.0,,,21-03-2024 14:43:16,21-03-2024 14:43:19,3.108s,PASSED
+"openBrowser("""")",Chrome 123.0.0.0,,,21-03-2024 14:43:16,21-03-2024 14:43:18,1.296s,PASSED
+"navigateToUrl(""https://sc.npru.ac.th/login/"")",Chrome 123.0.0.0,,,21-03-2024 14:43:18,21-03-2024 14:43:18,0.126s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login Page/input_Username_username""), ""admin"")",Chrome 123.0.0.0,,,21-03-2024 14:43:18,21-03-2024 14:43:19,0.668s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Login Page/input_Password_password""), ""hsPFm2cfhkw="")",Chrome 123.0.0.0,,,21-03-2024 14:43:19,21-03-2024 14:43:19,0.347s,PASSED
+"click(findTestObject(""Object Repository/Page_Login Page/button_Login""))",Chrome 123.0.0.0,,,21-03-2024 14:43:19,21-03-2024 14:43:19,0.343s,PASSED
+closeBrowser(),Chrome 123.0.0.0,,,21-03-2024 14:43:19,21-03-2024 14:43:19,0.080s,PASSED
